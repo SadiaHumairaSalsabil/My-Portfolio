@@ -18,7 +18,6 @@
 
 html {
     font-size: 60%;
-    overflow-x: hidden;
 }
 
 body {
@@ -98,6 +97,8 @@ section {
     text-align: left;
     justify-content: center;
     margin-top: 3rem;
+    max-width: 80vw;
+
 }
 
 span {
@@ -707,7 +708,7 @@ span {
         left: 0;
     }
 
-    researchprojects {
+    .researchprojects {
         padding-bottom: 7rem;
     }
 
@@ -763,16 +764,17 @@ span {
         }
 
         .home-content h3 {
-            font-size: 2.6rem;
+            max-width: 80vw;
+            margin: 0 auto;
         }
 
         .home-content h1 {
-            font-size: 8rem;
-            margin-top: 3rem;
+            max-width: 80vw;
+            margin: 0 auto;
         }
 
         .home-content p {
-            max-width: 600px;
+            max-width: 80vw;
             margin: 0 auto;
         }
 
