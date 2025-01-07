@@ -115,7 +115,7 @@ span {
 }
 
 .home-content h1 {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
@@ -128,7 +128,7 @@ span {
 .home-img img {
     position: relative;
     top: 3rem;
-    width: 32vw;
+    width: 22vw;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.4s ease-in-out;
@@ -149,10 +149,11 @@ span {
 }
 
 .home-content p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
+    color: #ebdada;
 }
 
 .social-icons a {
@@ -224,9 +225,9 @@ span {
 
 
 .text-animation {
-    font-size: 33px;
+    font-size: 23px;
     font-weight: 600;
-    min-width: 280px;
+    min-width: 500px;
 }
 
 .text-animation span {
@@ -481,18 +482,18 @@ span {
     max-height: 200px;
     justify-content: left;
     align-items: baseline;
-    padding: 5rem 5rem;
+    padding: 2.5rem 5rem;
 }
 
 .researchprojects-info h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
     line-height: 2;
 }
 
 .researchprojects-info p {
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 60;
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
