@@ -76,13 +76,12 @@
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script>
     (function () {
-      emailjs.init("gCHqVJ1rxiaI1wSbu"); // Replace with your EmailJS Public Key
+      emailjs.init("gCHqVJ1rxiaI1wSbu");
     })();
 
     function sendEmail(event) {
-      event.preventDefault(); // Prevents form from reloading
-
-      emailjs.sendForm("sadiasalsabil", "template_uw6xjhv", event.target)
+      event.preventDefault();
+      emailjs.sendForm("sadiasalsabil", "template_elxtld6", event.target)
         .then(function (response) {
           alert("Message sent successfully!");
         }, function (error) {
